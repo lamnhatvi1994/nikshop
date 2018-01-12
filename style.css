@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* menu*/
+.fontmenu{
+	font-size:20px;
+}
+.mart20{
+	margin-top:20px;
+}
+.marl20{
+	margin-left:20px;
+}
+.padt20{
+	padding-top:20px;
+}
+/* slideshow*/
+.carousel-inner img {
+      width:100%;
+      height:100%;
+}
+.carousel-caption{
+	background-color:rgba(29,29,29,0.40);
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
+.carousel-inner{	
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+.carousel-item a img{
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
+/* phóng to hình khi re chuột vào*/
+.hoverimage img{
+-webkit-transform:scale(1); /*Webkit: Thu nhỏ kích thước ảnh còn 0.8 so với ảnh gốc*/
+-moz-transform:scale(1); /*Thu nhỏ đối với Mozilla*/
+-o-transform:scale(1); /*Thu nhỏ đối với Opera*/
+-webkit-transition-duration: 0.5s; /*Webkit: Thời gian phóng to, nhỏ ảnh*/
+-moz-transition-duration: 0.5s; /*Như trên*/
+-o-transition-duration: 0.5s; /*Như trên*/
+opacity: 0.7; /*Độ mờ của hình ảnh*/
+margin: 0 10px 5px 0; /*căn đều giữa ảnh*/
+border-radius:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+}
+.hoverimage img:hover{
+-webkit-transform:scale(1.3); /*Webkit: Tăng kích cỡ ảnh lên 1.1 lần*/
+-moz-transform:scale(1.3); 
+-o-transform:scale(1.3); 
+box-shadow:0px 0px 30px gray; /*Đổ bóng bằng CSS3*/
+-webkit-box-shadow:0px 0px 30px gray;
+-moz-box-shadow:0px 0px 30px gray; 
+opacity: 1; /*Độ mờ của hình ảnh*/
+border-radius:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+}
+
+img.blur {
+      -webkit-filter: blur(3px); 
+      -moz-filter: blur(3px);
+      -o-filter: blur(3px); 
+      -ms-filter: blur(3px); 
+      filter: url(#blur); 
+      filter: blur(3px);  
+      filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');}

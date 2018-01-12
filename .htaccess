@@ -1,0 +1,12 @@
+RewriteEngine On
+
+
+RewriteRule ^hoadon-([0-9]+).html$ hoadon.php?id=$1
+
+
+
+
+
+
+
+
